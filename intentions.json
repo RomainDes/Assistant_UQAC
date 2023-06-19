@@ -1,0 +1,292 @@
+{
+    "intentions": 
+  [ 
+    {
+      "tag": "greetings",
+      "patterns": [
+          "Hello",
+          "Hi",
+          "Bonjour",
+          "Salut",
+          "Hey",
+          "Comment tu vas ?",
+          "Comment ca va ?"
+      ],
+      "responses": [
+          "Salut !",
+          "Bonjour, en quoi puis-je vous aider aujourd'hui ?",
+          "Bonjour, avez-vous une question pour moi ?",
+          "Bonjour, comment puis-je vous aider ?",
+          "Bonjour, que puis-je faire pour vous ?",
+          "Salut, comment ca va ?",
+          "Bonjour, je suis la pour vous aider. Comment puis-je vous assister ?"
+      ]
+    },
+
+    {
+      "tag": "Recherche_Salle",
+      "patterns": [
+          "Peux-tu m'indiquer ou se trouve une salle ?",
+          "Je cherche une salle",
+          "As-tu un plan de l'universite ?",
+          "Je me suis perdu dans l'UQAC",
+          "J'aimerais trouver une salle"
+      ],
+      "responses": [
+          "Bien sur, voici un plan detaille de l'universite. Avec ca, tu vas pouvoir te reperer plus facilement a l'UQAC",
+          "Je peux vous aider a trouver une salle, de quelle salle s'agit-il ?",
+          "Je peux vous aider a trouver votre chemin dans l'universite, quelle salle cherchez-vous ?",
+          "Je peux vous aider a localiser une salle, quelle salle recherchez-vous ?"
+      ]
+    },
+
+    {
+      "tag": "Activites sportive",
+      "patterns": [
+          "Je cherche a faire du sport",
+          "J'aimerais faire du sport a l'UQAC, ou je peux me rendre ?",
+          "Ou se deroulent les activites sportives ?",
+          "Ou je peux faire du sport ?",
+          "Est-ce qu'on peut faire du Volley a l'UQAC ?",
+          "Quels sont les sports disponibles a l'universite ?",
+          "Comment je fais pour m'inscrire a la salle de sport ?"
+      ],
+      "responses": [
+          "Pour en savoir plus sur les activites sportives de l'UQAC, vous pouvez vous rendre sur ce lien : (Lien vers les infos sport). Vous pourrez vous renseigner sur les modalites d'inscription des differents sports disponibles a l'universite ainsi que les horaires disponibles.",
+          "Je peux vous donner plus d'informations sur les sports proposes a l'UQAC, que cherchez-vous a savoir ?",
+          "Je peux vous aider a trouver des informations sur les activites sportives, quelle est votre question ?",
+          "Je suis la pour vous aider a trouver des informations sur les activites sportives de l'UQAC, que voulez-vous savoir ?"
+      ]
+    },
+
+    {
+      "tag": "Transport",
+      "patterns": [
+          "Peut-on obtenir une carte de transport lorsqu'on est inscrit a l'UQAC ?", 
+          "Est-il possible d'avoir une carte de bus a l'UQAC ?", 
+          "Comment je peux obtenir ma carte de bus ?", 
+          "Y a-t-il une entente entre l'UQAC et la STS pour les etudiants ?",
+          "Comment puis-je obtenir une carte de transport pour les etudiants ?",
+          "Quels sont les avantages de la carte de transport pour les etudiants ?",
+          "Quels sont les horaires de bus pour se rendre a l'UQAC ?"
+      ],
+      "responses": [
+          "Bien sur, l'UQAC dispose d'un partenariat avec la Societe de Transport du Saguenay en proposant aux etudiants un abonnement extrêmement avantageux.", 
+          "Lors de ton inscription a l'UQAC, il te sera possible d'obtenir une carte de transport pour toute la session pour seulement 40$.", 
+          "Avec cette carte, tu pourras utiliser les transports de la STS librement !",
+          "La carte de transport pour les etudiants est disponible lors de ton inscription a l'UQAC.",
+          "Tu pourras utiliser cette carte pour te deplacer librement en transport en commun.",
+          "Tu peux trouver les horaires de bus pour te rendre a l'UQAC sur le site web de la Societe de Transport du Saguenay."
+      ]
+    },
+
+    {
+      "tag": "Bibliotheque",
+      "patterns": [
+          "Où se situe la bibliotheque ?", 
+          "De quelle heure a quelle heure est ouverte la bibliotheque ?", 
+          "Quelles sont les horaires d'ouverture de la bibliotheque ?", 
+          "Emplacement bibliotheque", 
+          "Horaire bibliotheque",
+          "Comment emprunter un livre a la bibliotheque ?",
+          "Puis-je prolonger l'emprunt d'un livre ?"
+      ],
+      "responses": [
+          "La bibliotheque se situe au 2eme etage du bâtiment principal.",
+          "Elle est ouverte tous les jours de 7h30 a 21h sauf le samedi et le dimanche où elle ouvre a 10h et ferme a 17h.",
+          "Les horaires d'ouverture de la bibliotheque sont disponibles sur le site web de l'UQAC.",
+          "Pour emprunter un livre a la bibliotheque, vous pouvez vous rendre au comptoir d'emprunt avec votre carte etudiante.",
+          "Le delai d'emprunt pour un livre est de 3 semaines.",
+          "Vous pouvez prolonger l'emprunt d'un livre en vous connectant a votre compte sur le site web de la bibliotheque."
+      ]
+    },
+
+    {
+      "tag": "Recherche_info_Etudiant",
+      "patterns": [
+          "Comment acceder a mon dossier etudiant ?", 
+          "Où puis-je trouver mes notes ?", 
+          "Comment recuperer mon horaire de cours ?", 
+          "Comment changer mes informations personnelles ?",
+          "Quelles sont les informations disponibles sur mon portail etudiant ?",
+          "Comment se connecter a son portail etudiant ?"
+      ],
+      "responses": [
+          "Vous pouvez acceder a votre dossier etudiant en vous connectant sur le portail etudiant de l'UQAC avec vos identifiants.", 
+          "Sur votre portail etudiant, vous pouvez consulter vos notes ainsi que votre horaire de cours.", 
+          "Pour recuperer votre horaire de cours, connectez-vous a votre portail etudiant.", 
+          "Pour changer vos informations personnelles, il suffit de vous connecter a votre portail etudiant et de suivre les instructions.", 
+          "Sur votre portail etudiant, vous pouvez acceder a toutes vos informations personnelles, vos notes ainsi que votre horaire de cours.",
+          "Pour vous connecter a votre portail etudiant, rendez-vous sur le site web de l'UQAC et suivez les instructions."
+      ]
+    },
+  
+
+    {
+      "tag": "Inscription aux cours",
+      "patterns": [
+          "Comment m'inscrire a un cours ?", 
+          "Ou puis-je trouver la liste des cours disponibles ?", 
+          "Comment savoir si j'ai reussi a m'inscrire a un cours ?", 
+          "Comment changer mon choix de cours ?"
+      ],
+      "responses": [
+          "Vous pouvez vous inscrire a un cours en utilisant le portail etudiant de l'UQAC.", 
+          "La liste des cours disponibles est disponible sur notre site web, ainsi que sur le portail etudiant.", 
+          "Une fois inscrit a un cours, vous recevrez une confirmation de votre inscription."
+      ]
+    },
+
+    {
+        "tag": "Demande de soutien",
+        "patterns": [
+            "Comment puis-je obtenir de l'aide pour mes etudes ?", 
+            "Ou puis-je trouver des tuteurs ?", 
+            "Comment contacter un conseiller etudiant ?", 
+            "Comment obtenir un support technique ?"
+        ],
+        "responses": [
+            "Pour obtenir de l'aide pour vos etudes, vous pouvez contacter votre departement ou votre professeur pour des conseils academiques.", 
+            "Nous avons egalement des tuteurs disponibles pour vous aider dans certaines matieres.", 
+            "Pour contacter un conseiller etudiant, vous pouvez vous rendre sur le portail etudiant ou vous rendre au bureau des services etudiants.", 
+            "Enfin, si vous avez besoin d'un support technique, vous pouvez contacter notre service informatique."
+        ]
+    },
+    {
+        "tag": "Probleme technique",
+        "patterns": [
+            "Je ne peux pas me connecter a mon compte etudiant", 
+            "Je ne peux pas acceder a la plateforme en ligne", 
+            "Je ne peux pas imprimer mes devoirs", 
+            "Comment resoudre un probleme technique ?"
+        ],
+        "responses": [
+            "Si vous rencontrez des problemes techniques, veuillez contacter notre service informatique pour obtenir de l'aide.", 
+            "Vous pouvez les contacter par telephone, email ou en personne au bureau des services informatiques."
+        ]
+    },
+    {
+        "tag": "Cours disponibles",
+        "patterns": [
+            "Quels sont les cours offerts cette session ?",
+            "Comment puis-je trouver les cours disponibles ?",
+            "Où puis-je trouver des informations sur les cours a l'UQAC ?",
+            "Y a-t-il des nouveaux cours pour la prochaine session ?"
+        ],
+        "responses": [
+            "Vous pouvez trouver la liste complete des cours offerts pour cette session sur notre site web. Voici le lien : (inserer le lien). Si vous avez des questions specifiques sur un cours, n'hesitez pas a contacter votre departement."
+        ]
+    },
+    {
+        "tag": "Horaires des evenements et activites sur le campus",
+        "patterns": [
+            "Y a-t-il des evenements sur le campus ?",
+            "Comment puis-je savoir ce qui se passe sur le campus ?",
+            "Où puis-je trouver des informations sur les activites etudiantes ?",
+            "Quels sont les evenements prevus pour la semaine prochaine ?"
+        ],
+        "responses": [
+            "Nous organisons regulierement des evenements et activites etudiantes. Consultez notre serveur discord pour la liste complete des evenements a venir et pour decouvrir comment vous impliquer dans la vie etudiante."
+        ]
+    },
+    {
+        "tag": "Ressources en ligne",
+        "patterns": [
+            "Comment puis-je acceder a la plateforme de cours en ligne ?",
+            "Y a-t-il des ressources en ligne pour les etudiants ?",
+            "Comment puis-je me connecter a la bibliotheque en ligne ?",
+            "Où puis-je trouver des tutoriels en ligne pour m'aider avec mes etudes ?"
+        ],
+        "responses": [
+            "Nous avons une plateforme en ligne pour les cours et une bibliotheque en ligne avec des ressources pour les etudes a l'adresse suivante : https://moodle.uqac.ca/. Utilisez vos identifiants UQAC et consultez nos tutoriels en ligne si besoin."
+        ]
+    },
+    {
+        "tag": "Logement etudiant",
+        "patterns": [
+            "Y a-t-il des logements etudiants sur le campus ?",
+            "Comment puis-je trouver un logement etudiant ?",
+            "Quels sont les couts des logements etudiants ?",
+            "Y a-t-il des colocations disponibles ?"
+        ],
+        "responses": [
+            "Des logements etudiants sont disponibles sur le campus. Consultez l'adrsse suivante pour les couts et la disponibilite : https://siuq.uquebec.ca/chicoutimi. Nous avons aussi une liste de colocations disponibles."
+        ]
+    },
+    {
+        "tag": "Services de carriere",
+        "patterns": [
+            "Y a-t-il des services de carriere a l'UQAC ?",
+            "Comment puis-je trouver un stage ?",
+            "Y a-t-il des opportunites de travail sur le campus ?",
+            "Comment puis-je preparer mon CV et ma lettre de motivation ?"
+        ],
+        "responses": [
+            "Nous aidons les etudiants a trouver des stages et des emplois grâce a notre equipe professionnelle et des opportunites sur le campus. Des ressources en ligne et des conseillers en carriere sont egalement disponibles pour les aider a preparer leur CV et lettre de motivation."
+        ]
+    },
+    {
+        "tag": "Financement des etudes",
+        "patterns": [
+            "Comment puis-je obtenir une bourse d'etudes ?",
+            "Y a-t-il des options de financement disponibles pour les etudiants ?",
+            "Comment puis-je demander une aide financiere ?",
+            "Y a-t-il des prêts etudiants disponibles ?"
+        ],
+        "responses": [
+            "Nous proposons des bourses et des aides financieres pour les etudiants. Vous pouvez trouver plus d'informations sur notre site web et faire une demande en ligne a l'adresse suivante : https://sae.uqac.ca/bourses-detudes/."
+        ]
+    },
+    {
+        "tag": "Admission",
+        "patterns": [
+            "Quelles sont les etapes a suivre pour être admis a l'UQAC ?",
+            "Quelles sont les conditions d'admission a l'UQAC ?",
+            "Quels sont les prerequis pour être admis a l'UQAC ?",
+            "Comment puis-je verifier l'etat de ma demande d'admission ?",
+            "Quels documents sont requis pour l'admission a l'UQAC ?"
+        ],
+        "responses": [
+            "Les conditions d'admission varient selon le programme d'etudes. Vous pouvez trouver plus d'informations sur les conditions d'admission a l'adresse suivante : https://www.uqac.ca/registraire/admission/. Vous pouvez egalement contacter le bureau du registraire pour obtenir de l'aide."
+        ]
+    },
+
+    {
+      "tag": "Services aux etudiants",
+      "patterns": [
+        "J'ai besoin d'aide, comment trouver quelqu'un qui peut m'aider",
+        "Je ne vais pas bien psychologiquement, comment avoir de l'aide ?"
+      ],
+      "responses": [
+        "L'UQAC propose des services d'aide en presentiel ou bien en distanciel. Il est possible de prendre rendez vous pour obtenir de l'aide psychosociale ou autre soutien via le lien suivant: https://sae.uqac.ca. Sinon, il faut se rendre au centre de reference LE CUBE situe en P1-1045"
+      ]
+    },
+
+    {
+      "tag": "Sorties decouvertes",
+      "patterns": [
+        "Quelles sorties puis-je faire a Chicoutimi ?",
+        "Est ce que l'UQAC organise des sorties decouvertes ?"
+      ],
+      "responses": [
+        "L'UQAC propose de nombreuses sorties decouvertes tout au long de l'annee. Pour ne rien rater, il suffit de consulter le lien suivant: https://sae.uqac.ca/vie-etudiante/activites-decouverte/ "
+      ]
+    },
+
+
+    {
+        "tag": "Au revoir",
+        "patterns": [
+            "Merci pour votre aide",
+            "Au revoir",
+            "Bonne journee",
+            "A bientot",
+            "A la prochaine"
+        ],
+        "responses": [
+            "De rien, n'hesitez pas a me contacter si vous avez d'autres questions.",
+            "Bonne journee !"
+        ]
+    }
+  ]         
+}

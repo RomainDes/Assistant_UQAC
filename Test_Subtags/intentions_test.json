@@ -1,0 +1,46 @@
+{
+    "intentions": 
+  [
+
+    {
+        "tag": "Repas",
+        "patterns": [
+            "Nourriture"
+        ],
+        "responses": [
+            "Quel type de repas souhaitez vous ?"
+        ],
+        "subtags": [
+            {
+                "name": "Pizza",
+                "patterns": [
+                    "Tarte"
+                ],
+                "responses": ["Margarita"]
+            },
+            {
+                "name": "Burger",
+                "patterns": [
+                    "Sandwich"
+                ],
+                "responses": ["Big Mac"]
+            }
+        ]
+    },
+    
+    {
+      "tag": "greetings",
+      "patterns": [
+          "Hello",
+          "Hi",
+          "Bonjour",
+          "Salut"
+      ],
+      "responses": [
+          "Salut !",
+          "Bonjour, en quoi puis-je vous aider aujourd'hui ?",
+          "Bonjour, avez-vous une question pour moi ?"
+      ]
+    }
+]         
+}
