@@ -14,3 +14,13 @@ L'ensemble de données utilisé par l'Assistant UQAC a été soigneusement colle
 - Saisie interactive : Les utilisateurs peuvent interagir avec le chatbot en saisissant leurs questions ou demandes dans une zone de texte prévue à cet effet.
 - Réponses précises et rapides : Grâce au modèle de données et aux patterns associés, l'Assistant UQAC est capable de fournir des réponses pertinentes et adaptées aux demandes des utilisateurs.
 - Informations sur l'université : Les membres de l'UQAC peuvent obtenir des informations sur les cours, les services universitaires, la vie étudiante, et bien plus encore, en utilisant l'Assistant UQAC.
+
+## Installation
+
+Pour installer et exécuter l'Assistant UQAC sur votre propre environnement, suivez les étapes suivantes :
+
+1. Clonez ce référentiel sur votre machine locale.
+2. Assurez-vous d'avoir Python installé sur votre système.
+3. Installez les dépendances requises
+4. Exécutez l'application en utilisant la commande `python app.py`.
+5. Accédez à l'Assistant UQAC dans votre navigateur à l'adresse `http://localhost:5000`.
